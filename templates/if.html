@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+     
+        {% comment %} <h1>using if conditions</h1> 
+        {% if a > 5 %}
+        <h1>a is greater than 5</h1>
+        {% endif %}
+        
+
+        
+        <h1>using if else conditions</h1>
+        {% if a > 17 %}
+        <h1>Eligible to vote</h1>
+        {% else %}
+        <h1>Not eligible to vote</h1>
+        {% endif %}
+        {% endcomment %}
+      
+        <h1>using if elif conditions</h1>
+        {% if a < 17 %}
+        <h1>Your age is {{a}}it will be as a child marraige</h1>
+        {% elif a > 25 %}
+        <h1>Your age is {{a}}right time to get marraige</h1>
+        {% elif a > 34 %}
+        <h1>Your age is {{a}}get marraige soon or no use</h1>
+        {% else %}
+        <h1>Not eligible to vote</h1>
+        {% endif %}
+        
+
+    </center>
+</body>
+</html>
